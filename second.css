@@ -1,0 +1,13 @@
+.box
+{
+    width:400px;
+    height: 400px;
+    
+    background-image: linear-gradient(to right, #ff000000, #ff0000);
+    animation-name: example;
+    animation-duration: 1s;
+}
+@keyframes example {
+    from {background-color: #ff000000;}
+    to {background-color:red}
+  }
